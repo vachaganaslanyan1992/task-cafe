@@ -1,0 +1,54 @@
+# PhpStorm project files
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+/composer.lock
+
+# Node (если используется для фронта)
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Build artifacts
+/dist/
+/build/
+
+# Cache, logs, temporary files
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Uploaded files, user-generated content
+/storage/
+public/uploads/
+public/files/
+
+# PHPStorm working files
+*.iml
+*.iws
+*.ipr
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Coverage reports
+coverage/
+
+# Nginx/Apache config backups (редко, но бывает)
+*.bak
+*.old
+
+# Custom runtime/cache folders (если есть)
+cache/
+tmp/
