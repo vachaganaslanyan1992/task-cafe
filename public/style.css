@@ -1,0 +1,9 @@
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.messageBox {
+    transition: opacity 0.3s ease-in-out;
+}
